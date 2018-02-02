@@ -2,7 +2,7 @@
 /**
 *
 * Precise Similar Topics [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 (c) 2016 [ver 1.4.2] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by null2 (c) 2016 [ver 1.4.3] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2013 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -39,5 +39,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'SIMILAR_TOPICS'			=> 'Tópicos Semelhantes',
-	'DISPLAY_SIMILAR_TOPICS'	=> 'Ativar Tópicos Semelhantes',
+	'DISPLAY_SIMILAR_TOPICS'	=> 'Exibir Tópicos Semelhantes',
 ));

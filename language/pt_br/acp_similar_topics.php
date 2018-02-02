@@ -2,7 +2,7 @@
 /**
 *
 * Precise Similar Topics [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 (c) 2016 [ver 1.4.2] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by null2 and update by eunaumtenhoid (c) 2016 [ver 1.4.3] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2013 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -39,20 +39,22 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PST_TITLE_ACP'		=> 'Precise Similar Topics',
-	'PST_EXPLAIN'		=> 'Precise Similar Topics apresenta uma lista de temas semelhantes, na parte inferior da página do tópico atual.',
+	'PST_EXPLAIN'		=> 'Precise Similar Topics apresenta uma lista de tópicos semelhantes, na parte inferior da página do tópico atual.',
 	'PST_LEGEND1'		=> 'Configurações gerais',
-	'PST_ENABLE'		=> 'Ativar Tópicos Semelhantes',
+	'PST_ENABLE'		=> 'Exibir Tópicos Semelhantes',
 	'PST_LEGEND2'		=> 'Carregar configurações',
 	'PST_LIMIT'			=> 'Número de Tópicos Semelhantes a exibir',
-	'PST_LIMIT_EXPLAIN'	=> 'Indique o número de Tópicos Semelhantes a exibir. O padrão é 5 Tópicos.',
+	'PST_LIMIT_EXPLAIN'	=> 'Aqui você pode definir quantos tópicos semelhantes serão exibidos. O padrão é 5 tópicos.',
 	'PST_TIME'			=> 'Período de pesquisa',
-	'PST_TIME_EXPLAIN'	=> 'Indique período de pesquisa dos Tópicos Semelhantes. Por exemplo, se selecionar <strong>5 dias</strong>, serão exibidos os Tópicos Semelhantes dos últimos cinco dias. O padrão é 1 ano.',
+	'PST_TIME_EXPLAIN'	=> 'Esta opção permite que você configure o período de pesquisa de tópicos semelhantes. Por exemplo, se configurado para "5 dias", o sistema só mostrará tópicos semelhantes nos últimos 5 dias. O padrão é 1 ano.',
 	'PST_YEARS'			=> 'Anos',
 	'PST_MONTHS'		=> 'Meses',
 	'PST_WEEKS'			=> 'Semanas',
 	'PST_DAYS'			=> 'Dias',
 	'PST_CACHE'			=> 'Duração da Cache de Tópicos Semelhantes',
 	'PST_CACHE_EXPLAIN'	=> 'A Cache de Tópicos Semelhantes vai expirar após esse tempo, em segundos. 0 para desativar a Cache de Tópicos Semelhantes.',
+	'PST_SENSE'			=> 'Sensibilidade de pesquisa',
+	'PST_SENSE_EXPLAIN'	=> 'Defina a sensibilidade de pesquisa para um valor entre 1 e 10. Use um número menor se você não estiver vendo tópicos semelhantes. Configurações recomendadas: para tabelas de banco de dados "phpbb_topics" usando InnoDB use 1; para MyISAM use 5.',
 	'PST_LEGEND3'		=> 'Configurações do fórum',
 	'PST_NOSHOW_LIST'	=> 'Não exibir em',
 	'PST_NOSHOW_TITLE'	=> 'Não exibir Tópicos Semelhantes em',

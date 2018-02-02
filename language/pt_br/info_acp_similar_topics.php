@@ -2,7 +2,7 @@
 /**
 *
 * Precise Similar Topics [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 (c) 2016 [ver 1.4.2] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by null2 (c) 2016 [ver 1.4.3] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2013 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PST_TITLE_ACP'		=> 'Precise Similar Topics',
-	'PST_SETTINGS'		=> 'Tópicos semelhantes configurações',
-	'PST_LOG_FULLTEXT'	=> '<strong>Banco de dados alterados para compatibilidade Similar Topics</strong><br />» Mudou a tabela “%s” para mecanismo de armazenamento MyISAM e acrescentou um índice FULLTEXT para a “topic_title”',
-	'PST_LOG_MSG'		=> '<strong>As configurações de Tópicos Semelhantes foram alteradas</strong>',
+	'PST_SETTINGS'		=> 'Configurações de Tópicos semelhantes',
+	'PST_LOG_FULLTEXT'	=> '<strong>Banco de dados alterados para compatibilidade de Tópicos semelhantes</strong><br />» Mudou a tabela “%s” para mecanismo de armazenamento MyISAM e acrescentou um índice FULLTEXT para a “topic_title”',
+	'PST_LOG_MSG'		=> '<strong>Configurações de Tópicos Semelhantes alteradas</strong>',
 ));
