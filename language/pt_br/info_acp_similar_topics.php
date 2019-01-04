@@ -2,7 +2,7 @@
 /**
 *
 * Precise Similar Topics [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese translation by null2 and update by eunaumtenhoid (c) 2016 [ver 1.5.0] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by null2 and update by eunaumtenhoid (c) 2016 [ver 1.5.1] (https://github.com/phpBBTraducoes)
 * @copyright (c) 2013 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
